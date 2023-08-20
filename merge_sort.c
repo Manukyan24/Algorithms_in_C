@@ -61,7 +61,7 @@ void merge_sort(int * A, int p, int r){
 
 int main(){
 	// For testing
-	int A[] = {1,2,3,4,9,0,2,3,4,5,2};
+	int A[] = {10,9,8,8,8,8,3,4,2,1,5,-1516112,0 ,2};
 	int p = 0;
 	int r = sizeof(A)/sizeof(int) - 1;
 	merge_sort(A,p,r);
